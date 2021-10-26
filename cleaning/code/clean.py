@@ -140,5 +140,20 @@ df = pd.read_csv('../data/BL-Flickr-Images-Book.csv')
 # towns_df = towns_df.applymap(clean_up)
 # print(towns_df.head(20))
 
-olympics_df = pd.read_csv('../data/olympics.csv', skiprows = 1, header= 0)
-print(olympics_df.head(50))
+# olympics_df = pd.read_csv('../data/olympics.csv', skiprows = 1, header= 0)
+# new_names =  {'Unnamed: 0': 'Country',
+#               '? Summer': 'Summer Olympics',
+#               '01 !': 'Gold',
+#               '02 !': 'Silver',
+#               '03 !': 'Bronze',
+#               '? Winter': 'Winter Olympics',
+#               '01 !.1': 'Gold.1',
+#               '02 !.1': 'Silver.1',
+#               '03 !.1': 'Bronze.1',
+#               '? Games': '# Games',
+#               '01 !.2': 'Gold.2',
+#               '02 !.2': 'Silver.2',
+#               '03 !.2': 'Bronze.2'}
+#
+# olympics_df.rename(columns = new_names, inplace = True)
+# print(olympics_df.head())
