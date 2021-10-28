@@ -1,3 +1,4 @@
+中华人民共和国是我的国家
 #2021-08-08 19:28:24,072;[FyUAAAF7JYVjKzbqdWLy, FyUAAAF7JYVkCEzWDAPz];INFO;HK.com.hit.rose.ejb.beans.CommandExecutorBean;ExecuteThread: '14' for queue: 'weblogic.kernel.Default';Execute command: HK.com.hit.ngen.omsi.model.OperationMonitorSystemInterfaceProcessCommand$RetrieveJITAndISSMoveToOMSEventMsg (Client IP Address: /172.17.7.88) (User: 80161);
 #2021-08-08 19:28:24,094;[FyUAAAF7JYVkHk3sQaXg];INFO;HK.com.hit.rose.ejb.beans.CommandExecutorBean;ExecuteThread: '3' for queue: 'weblogic.kernel.Default';Execute command: HK.com.hit.oms.model.YardModelEnquiryProcessCommand$FindTractorNumber (Client IP Address: OSD-1ZRVG32/192.168.209.212) (User: 22192);
 #2021-08-08 19:28:24,107;[FyUAAAF7JYVjKzbqdWLy];INFO;HK.com.hit.ngen.msi.model.actions.vmt.EnquireTractorListAction;ExecuteThread: '14' for queue: 'weblogic.kernel.Default';Found 0 stack under typhoon!;
