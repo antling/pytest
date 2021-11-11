@@ -25,7 +25,6 @@ for file in file_list:
     f = open(file, encoding='utf8')
     for line in f:
         if (line.find("error") > -1) or (line.find("fatal") > -1) or (line.find("exception") > -1):
-            result = re.findall(r'error|fatal|exception', line)
             target.writelines(line)
 
 target.close()
